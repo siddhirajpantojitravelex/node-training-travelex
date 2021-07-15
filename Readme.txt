@@ -10,17 +10,17 @@ Assignment
 Pattern 
 Write a function which will get no of lines as input and Produce Following pattern
 
-*
-* * 
-* * * 
-* * * *
-* * * * *
+* 1
+* * 2 
+* * *  3
+* * * * 4
+* * * * * 5
 
 
-* * * * *
- * * * *
-  * * *
-   * *
-    *
+* * * * * 5 
+1 * * * * 4
+2  * * * 3
+3   * * 2 
+4    * 1
 
 Accept the no of rows via command Line and pass to the function 
