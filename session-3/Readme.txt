@@ -19,3 +19,6 @@ https://docs.npmjs.com/cli/v6/commands/npm-install
 Read a CSV File and print its content in json 
 
 4. Assignment Based on Above 
+
+Read a CSV File , Convert its content to lowercase and Write in another CSV File
+After This try same for Excel File 
