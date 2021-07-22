@@ -6,6 +6,7 @@ class CSVOperation {
         try {
             let data = fs.readFileSync(filePath, "utf-8")
             let jsonData = await this.convertToJSON(data)
+            
             return jsonData
         } catch (error) {
             console.error("Error While CSV Readeing ", error)
@@ -13,7 +14,7 @@ class CSVOperation {
         }
     }
 
-    static async convertToJSON(data) {
+    static async  convertToJSON(data) {
         return new Promise((resolve, reject) => {
             csv.parse(data, {
                 delimiter: ","
@@ -26,6 +27,10 @@ class CSVOperation {
                 }
             })
         })
+    }
+
+    parent(){
+        console.log("Inside Parent ")
     }
 }
 module.exports = CSVOperation
